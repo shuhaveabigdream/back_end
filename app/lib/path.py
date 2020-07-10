@@ -3,7 +3,7 @@ import sys
 import configparser
 import shutil
 from functools import reduce
-
+from django.conf import settings
 '''
 api总结
 write_sigle_file       params:path,content
@@ -19,7 +19,9 @@ combin_chunks_nocache  params:path target_path
 '''
 
 class Path:
-    def __init__(self,config_path='./config.ini'):
+    def __init__(self,config_path='./app/lib/config.ini'):
+        import os
+        print(os.getcwd())
         config=configparser.ConfigParser()
         config.read(config_path)
         self.basePath=config.get('PATH','BASE_PATH').replace("'",'')
@@ -122,3 +124,6 @@ class Path:
         pwd,subdirec,files=self.tree(path)
         ans=[self.getInfor(item) for item in files] 
         return ans
+
+if __name__=="__main__":
+    obj=Path()
