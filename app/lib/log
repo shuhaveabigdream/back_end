@@ -234,3 +234,12 @@ time:2020-07-11 19:46:40
 sql:select * from file_list 
 status success 
 time:2020-07-11 19:46:40
+sql:create table user_list(            usr_id int unsigned auto_increment,            usrName varchar(20) not null,            path varchar(50) not null,            last_login_date varchar(60),            last_login_addr varchar(20),            primary key(usr_id))ENGINE=InnoDB DEFAULT CHARSET=utf8; 
+status success 
+time:2020-07-11 21:20:19
+sql:create table file_list(            file_id int unsigned auto_increment,            file_name varchar(40) NOT NULL,            file_size varchar(20) NOT NULL,            belong varchar(40),            last_update varchar(40) NOT NULL,            file_path varchar(100) NOT NULL,            PRIMARY KEY(file_id))ENGINE=InnoDB DEFAULT CHARSET=utf8; 
+status success 
+time:2020-07-11 21:20:19
+sql:create table token_list(            token_id int unsigned auto_increment,            token varchar(100) not null,            usr_name varchar(20) not null,            create_time varchar(20) not null,            primary key(token_id))ENGINE=InnoDB DEFAULT CHARSET=utf8; 
+status success 
+time:2020-07-11 21:20:20

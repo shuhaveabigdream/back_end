@@ -27,7 +27,7 @@ class model:
     def update(self,conditions,kwargs):
         return "update " +self.db+ " set %s='%s'"%list(kwargs.items())[0]+' where '+' and '.join(["%s='%s'"%item for item in list(conditions.items())])
     def select(self,conditions=None):
-        return 'select * from  ' +self.db+ 'where ' + ' and '.join(["%s='%s'" % item for item in list(conditions.items())]) if conditions!=None else\
+        return 'select * from  ' +self.db+ ' where ' + ' and '.join(["%s='%s'" % item for item in list(conditions.items())]) if conditions!=None else\
         'select * from '+self.db
 
 
@@ -35,11 +35,15 @@ class user(model):
     def __init__(self):
         self.usrName=''
         self.path=''
-        self.last_login=''
+        self.last_login_date=''
+        self.last_login_addr=''
         self.db='user_list'
         super(user,self).__init__()
     def insert(self):
-        return 'insert into '+self.db+'(usrName,path,last_login) values (\'%s\',\'%s\',\'%s\')'%(self.usrName,self.path,self.last_login)
+        return 'insert into '+self.db+'(usrName,path,last_login_date,last_login_addr) values (\'%s\',\'%s\',\'%s\',\'%s\')'%(self.usrName,\
+                                                                                                                             self.path,\
+                                                                                                                             self.last_login_date,\
+                                                                                                                             self.last_login_addr)
 
 class token(model):
     def __init__(self):
@@ -95,7 +99,8 @@ class mysql_operation:
             usr_id int unsigned auto_increment,\
             usrName varchar(20) not null,\
             path varchar(50) not null,\
-            last_login varchar(60),\
+            last_login_date varchar(60),\
+            last_login_addr varchar(20),\
             primary key(usr_id))ENGINE=InnoDB DEFAULT CHARSET=utf8;"
         sql_create_token = "create table token_list(\
             token_id int unsigned auto_increment,\
@@ -136,7 +141,7 @@ if __name__=="__main__":
     print(obj.select(sql=t.select()))
     obj.exceute_sql(sql=t.delete({'usrName':'akali'}))
     print(obj.select(sql=t.select()))'''
-    t=file()
+    '''t=file()
     t.file_path='TSVM.pdf'
     t.file_size='0.68mb'
     t.belong='zhouke'
@@ -147,4 +152,5 @@ if __name__=="__main__":
     obj.exceute_sql(sql=t.update({'belong': 'zhouke'}, {'belong': 'akali'}))
     print(obj.select(sql=t.select()))
     obj.exceute_sql(sql=t.delete({'belong': 'akali'}))
-    print(obj.select(sql=t.select()))
+    print(obj.select(sql=t.select()))'''
+    obj.customer_establish()

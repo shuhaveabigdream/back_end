@@ -20,13 +20,14 @@ combin_chunks_nocache  params:path target_path
 
 class Path:
     def __init__(self,config_path='./app/lib/config.ini'):
-        import os
-        print(os.getcwd())
+        if __name__=="__main__":
+            config_path='./config.ini'
         config=configparser.ConfigParser()
         config.read(config_path)
         self.basePath=config.get('PATH','BASE_PATH').replace("'",'')
         self.filePath=config.get('PATH','FILE_PATH').replace("'",'')
     def add_dirctionary(self,path=None):
+        print(settings.BASE_DIR)
         myPath=self.filePath+('' if path==None else path)
         if not os.path.exists(myPath):
             os.mkdir(myPath)
@@ -108,22 +109,22 @@ class Path:
             callback_file+=open(path+'/'+item,'rb').read()
         self.write_sigle_file(target_path,callback_file)
         return True
-    
     def combin_chunks_nocache(self,path,target_path):
         path = self.filePath + (path if path != None else '')
         files=os.listdir(path)
-        print(target_path)
         indexs=sorted(files,key=lambda x:int(x.split('_')[1]))
         with open(target_path,'ab+') as f:
             for index in indexs:
                 ct=open(path+'/'+index,'rb').read()
                 f.write(ct)
         f.close()
-        
     def package_One_layer(self,path=None):
         pwd,subdirec,files=self.tree(path)
         ans=[self.getInfor(item) for item in files] 
         return ans
+    def show_path(self,path):
+        return self.filePath + (path if path != None else '')+'/'
 
 if __name__=="__main__":
     obj=Path()
+    print(obj.show_path('userName'))
