@@ -1,0 +1,236 @@
+
+
+sql:select 
+status True 
+time:2020-07-10 22:40:23
+sql:create table user_list(            usr_id int unsigned auto_increment,            usrName varchar(20) not null,            path varchar(50) not null,            last_login varchar(60),            primary key(usr_id))ENGINE=InnoDB DEFAULT CHARSET=utf8; 
+status success 
+time:2020-07-10 22:48:04
+sql:create table file_list(            file_id int unsigned auto_increment,            file_name varchar(40) NOT NULL,            file_size varchar(20) NOT NULL,            belong varchar(40),            last_update varchar(40) NOT NULL,            file_path varchar(100) NOT NULL,            PRIMARY KEY(file_id))ENGINE=InnoDB DEFAULT CHARSET=utf8; 
+status success 
+time:2020-07-10 22:48:04
+sql:create table token_list(            token_id int unsigned auto_increment,            token varchar(100) not null,            usr_name varchar(20) not null,            create_time varchar(20) not null,            primary key(token_id))ENGINE=InnoDB DEFAULT CHARSET=utf8; 
+status success 
+time:2020-07-10 22:48:05
+sql:insert into user_list values (1101,admin,./admin,2020:07:10) 
+status fail 
+time:2020-07-10 23:16:24
+sql:insert into user_list values ('1001','zhouke','./admin','2020:07:10') 
+status success 
+time:2020-07-10 23:19:29
+sql:select * from user_list 
+status fail 
+time:2020-07-10 23:21:12
+sql:select * from user_list 
+status fail 
+time:2020-07-10 23:22:30
+sql:select * from user_list 
+status fail 
+time:2020-07-11 17:37:23
+sql:select * from user_list 
+status success 
+time:2020-07-11 17:43:11
+sql:insert into user_list values ('1001','zhouke','./admin','2020:07:10') 
+status fail 
+time:2020-07-11 17:45:23
+sql:insert into user_list values ('liujie','./admin','2020:07:10') 
+status fail 
+time:2020-07-11 17:46:24
+sql:insert into user_list(usrName,path,lastlogin) values (testuser,./path,2020/7/11) 
+status fail 
+time:2020-07-11 18:57:28
+sql:select * from user_list 
+status success 
+time:2020-07-11 18:57:28
+sql:update user_list set usrName=testuser where usrName=akali 
+status fail 
+time:2020-07-11 18:57:28
+sql:delete from  user_list where usrName=akali 
+status fail 
+time:2020-07-11 18:57:28
+sql:insert into user_list(usrName,path,lastlogin) values ('testuser','./path','2020/7/11') 
+status fail 
+time:2020-07-11 19:06:09
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:06:09
+sql:update user_list set usrName='testuser' where usrName='akali' 
+status success 
+time:2020-07-11 19:06:09
+sql:delete from  user_list where usrName='akali' 
+status success 
+time:2020-07-11 19:06:09
+sql:insert into user_list(usrName,path,last_login) values ('testuser','./path','2020/7/11') 
+status success 
+time:2020-07-11 19:06:40
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:06:40
+sql:update user_list set usrName='testuser' where usrName='akali' 
+status success 
+time:2020-07-11 19:06:40
+sql:delete from  user_list where usrName='akali' 
+status success 
+time:2020-07-11 19:06:40
+sql:insert into user_list(usrName,path,last_login) values ('testuser','./path','2020/7/11') 
+status success 
+time:2020-07-11 19:08:12
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:08:12
+sql:update user_list set usrName='testuser' where usrName='akali' 
+status success 
+time:2020-07-11 19:08:12
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:08:12
+sql:delete from  user_list where usrName='akali' 
+status success 
+time:2020-07-11 19:08:12
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:08:12
+sql:insert into user_list(usrName,path,last_login) values ('testuser','./path','2020/7/11') 
+status success 
+time:2020-07-11 19:11:43
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:11:43
+sql:update user_list set usrName='akali' where usrName='testuser' 
+status success 
+time:2020-07-11 19:11:43
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:11:43
+sql:delete from  user_list where usrName='akali' 
+status success 
+time:2020-07-11 19:11:43
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:11:43
+sql:insert into user_list(usrName,path,last_login) values ('testuser','./path','2020/7/11') 
+status success 
+time:2020-07-11 19:12:32
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:12:32
+sql:update user_list set usrName='akali' where usrName='testuser' 
+status success 
+time:2020-07-11 19:12:32
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:12:32
+sql:delete from  user_list where usrName='akali' 
+status success 
+time:2020-07-11 19:12:32
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:12:32
+sql:insert into user_list(token,create_time,usr_name) values ('asdalksjflakdsj','2020/7/11','zhouke') 
+status fail 
+time:2020-07-11 19:20:13
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:20:13
+sql:update user_list set usr_name='akali' where usr_name='zhouke' 
+status fail 
+time:2020-07-11 19:20:13
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:20:13
+sql:delete from  user_list where usr_name='akali' 
+status fail 
+time:2020-07-11 19:20:13
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:20:13
+sql:insert into user_list(token,create_time,usr_name) values ('asdalksjflakdsj','2020/7/11','zhouke') 
+status fail 
+time:2020-07-11 19:27:09
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:27:09
+sql:updateuser_listset usr_name='akali' where usr_name='zhouke' 
+status fail 
+time:2020-07-11 19:27:09
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:27:09
+sql:delete from  user_listwhere usr_name='akali' 
+status fail 
+time:2020-07-11 19:27:09
+sql:select * from user_list 
+status success 
+time:2020-07-11 19:27:09
+sql:insert into token_list(token,create_time,usr_name) values ('asdalksjflakdsj','2020/7/11','zhouke') 
+status success 
+time:2020-07-11 19:31:29
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:31:29
+sql:updatetoken_listset usr_name='akali' where usr_name='zhouke' 
+status fail 
+time:2020-07-11 19:31:29
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:31:29
+sql:delete from  token_listwhere usr_name='akali' 
+status fail 
+time:2020-07-11 19:31:29
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:31:29
+sql:insert into token_list(token,create_time,usr_name) values ('asdalksjflakdsj','2020/7/11','zhouke') 
+status success 
+time:2020-07-11 19:33:27
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:33:27
+sql:update token_listset usr_name='akali' where usr_name='zhouke' 
+status fail 
+time:2020-07-11 19:33:27
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:33:27
+sql:delete from  token_list where usr_name='akali' 
+status success 
+time:2020-07-11 19:33:27
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:33:27
+sql:insert into token_list(token,create_time,usr_name) values ('asdalksjflakdsj','2020/7/11','zhouke') 
+status success 
+time:2020-07-11 19:35:58
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:35:58
+sql:update token_list set usr_name='akali' where usr_name='zhouke' 
+status success 
+time:2020-07-11 19:35:58
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:35:58
+sql:delete from  token_list where usr_name='akali' 
+status success 
+time:2020-07-11 19:35:58
+sql:select * from token_list 
+status success 
+time:2020-07-11 19:35:58
+sql:insert into file_list(file_name,file_size,belong,last_update,file_path) values ('','0.68mb','zhouke','2020:7:10','./file/zhouke/TSVM.pdf') 
+status success 
+time:2020-07-11 19:46:40
+sql:select * from file_list 
+status success 
+time:2020-07-11 19:46:40
+sql:update file_list set belong='akali' where belong='zhouke' 
+status success 
+time:2020-07-11 19:46:40
+sql:select * from file_list 
+status success 
+time:2020-07-11 19:46:40
+sql:delete from  file_list where belong='akali' 
+status success 
+time:2020-07-11 19:46:40
+sql:select * from file_list 
+status success 
+time:2020-07-11 19:46:40
