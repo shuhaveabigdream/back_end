@@ -1,138 +1,1392 @@
-sql:select * from  user_listwhere usrName='zhoukkkk' 
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:insert into file_list(file_name,file_size,belong,last_update,file_path,chunk,complete) values ('合同.docx','16775','test_account','1594824486.4443893','C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/',0,0) 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:update file_list set chunk='1' where file_path='test_account/合同.docx' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:48:06
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:insert into file_list(file_name,file_size,belong,last_update,file_path,chunk,complete) values ('合同.docx','16775','test_account','1594824684.0608263','C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/',0,0) 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:update file_list set chunk=1 where file_path='test_account/合同.docx' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:51:24
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:insert into file_list(file_name,file_size,belong,last_update,file_path,chunk,complete) values ('合同.docx','16775','test_account','1594824825.9033217','C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/',0,0) 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:update file_list set chunk='1' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:update file_list set chunk='2' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:update file_list set chunk='3' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:update file_list set chunk='4' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:update file_list set chunk='5' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:update file_list set chunk='6' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:45
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='7' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='8' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='9' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='10' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='11' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='12' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='13' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='14' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='15' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='16' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='17' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='18' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='19' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='20' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='21' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='22' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='23' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='24' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='25' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='26' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='27' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='28' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='29' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='30' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='31' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 22:53:46
+sql:update file_list set complete='True' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status fail 
-time:2020-07-11 21:43:18
-sql:select * from  user_listwhere usrName='zhoukkkk' 
-status fail 
-time:2020-07-11 21:44:35
-sql:select * from  user_list where usrName='zhoukkkk' 
+time:2020-07-15 22:53:46
+sql:update file_list set chunk='32' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 21:46:45
-sql:insert into user_list(usrName,path,last_login_date,last_login_addr) values ('zhoukkkk','C:\Users\root\Desktop\NetDisk\back_end\app\files\zhoukkkk/','1594475205.2510903','127.0.0.1') 
+time:2020-07-15 22:53:46
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 21:46:45
-sql:insert into token_list(token,create_time,usr_name) values ('5076efd77894aeb68e1450a79676aa27','','zhoukkkk') 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 21:46:45
-sql:select * from  user_list where usrName='zhoukkkk' 
+time:2020-07-15 23:00:35
+sql:insert into file_list(file_name,file_size,belong,last_update,file_path,chunk,complete) values ('合同.docx','16775','test_account','1594825235.580432','C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/',0,0) 
 status success 
-time:2020-07-11 21:55:11
-sql:select * from  user_list where usrName='zhoukkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 21:55:33
-sql:select * from  user_list where usrName='zhoukkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 21:59:02
-sql:select * from  user_list where usrName='zhoukkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:06:29
-sql:insert into user_list(usrName,path,last_login_date,last_login_addr) values ('zhoukkkk','C:/Users/root/Desktop/NetDisk/back_end/app/files/zhoukkkk/','1594476389.0101275','127.0.0.1') 
-status fail 
-time:2020-07-11 22:06:29
-sql:insert into token_list(token,create_time,usr_name) values ('ec419743e4cf821cfcf1265f6cacdfe0','','zhoukkkk') 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='1' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:06:29
-sql:select * from  user_list where usrName='zhoukkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:23:22
-sql:insert into user_list(usrName,path,last_login_date,last_login_addr) values ('zhoukkkk','C:/Users/root/Desktop/NetDisk/back_end/app/files/zhoukkkk/','1594477402.8109636','127.0.0.1') 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:23:22
-sql:insert into token_list(token,create_time,usr_name) values ('26d8e5a16800b393331288c56be0077d','','zhoukkkk') 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:23:22
-sql:select * from  user_list where usrName='testuser' 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='2' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:48:36
-sql:select * from  user_list where usrName='testuser' 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:49:54
-sql:insert into user_list(usrName,path,last_login_date,last_login_addr) values ('testuser','C:/Users/root/Desktop/NetDisk/back_end/app/files/testuser/','1594478994.8511558','127.0.0.1') 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:49:54
-sql:insert into token_list(token,create_time,usr_name) values ('c2d8d3fc21c9a9d3c03423478905871f','','testuser') 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:49:54
-sql:select * from  user_list where usrName='testuser' 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='3' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:50:40
-sql:delete from  user_list where usrName='testuser' 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:50:40
-sql:delete from  token_list where usr_name='testuser' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:50:40
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:51:59
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='4' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:52:48
-sql:insert into user_list(usrName,path,last_login_date,last_login_addr) values ('kkkkk','C:/Users/root/Desktop/NetDisk/back_end/app/files/kkkkk/','1594479168.4151137','127.0.0.1') 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:52:48
-sql:insert into token_list(token,create_time,usr_name) values ('6a1c9241b5e15b9fab1242e7c3d3e14e','','kkkkk') 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:52:48
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:53:52
-sql:insert into user_list(usrName,path,last_login_date,last_login_addr) values ('kkkkk','C:/Users/root/Desktop/NetDisk/back_end/app/files/kkkkk/','1594479232.4545805','127.0.0.1') 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='5' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:53:52
-sql:insert into token_list(token,create_time,usr_name) values ('6a1c9241b5e15b9fab1242e7c3d3e14e','','kkkkk') 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:53:52
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:54:12
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:54:28
-sql:delete from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='6' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:54:28
-sql:delete from  token_list where usr_name='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:54:28
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:54:33
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:55:10
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='7' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:55:36
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:56:17
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:56:53
-sql:insert into user_list(usrName,path,last_login_date,last_login_addr) values ('kkkkk','C:/Users/root/Desktop/NetDisk/back_end/app/files/kkkkk/','1594479413.3905356','127.0.0.1') 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:56:53
-sql:insert into token_list(token,create_time,usr_name) values ('0dd2cf382c2397ea59d0acac3ff4974f','','kkkkk') 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='8' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:56:53
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:56:56
-sql:select * from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:57:31
-sql:delete from  user_list where usrName='kkkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:57:31
-sql:delete from  token_list where usr_name='kkkkk' 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='9' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:57:31
-sql:select * from  user_list where usrName='zhoukkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
 status success 
-time:2020-07-11 22:57:48
-sql:delete from  user_list where usrName='zhoukkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:57:48
-sql:delete from  token_list where usr_name='zhoukkkk' 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
 status success 
-time:2020-07-11 22:57:48
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='10' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='11' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='12' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='13' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='14' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='15' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='16' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='17' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='18' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='19' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='20' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:update file_list set chunk='21' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:35
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='22' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='23' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='24' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='25' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='26' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='27' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='28' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='29' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='30' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='31' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  token_list where token='83643a15c043c63659b3a4221b221cc6' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:select * from  file_list where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set complete='1' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36
+sql:update file_list set chunk='32' where file_path='C:/Users/root/Desktop/NetDisk/back_end/app/files/test_account/合同.docx/' 
+status success 
+time:2020-07-15 23:00:36

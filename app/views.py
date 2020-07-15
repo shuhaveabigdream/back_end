@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse,JsonResponse
 from django.views.decorators.http import require_http_methods
 import json
 import time
@@ -9,8 +9,11 @@ from .lib.addscrete import create_token,time_decode
 file_admin=path.Path()#操作文件对象
 db_operation=mp.mysql_operation()#操作数据库对象
 
-def zip_pack(dict):
-    return HttpResponse(json.dumps(dict),content_type='application/json')
+def zip_pack(dict,cookies=None):
+    response=JsonResponse(dict)
+    if cookies:
+        [response.set_cookie(k,v) for k,v in cookies.items()]
+    return response
 
 def get_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
@@ -53,7 +56,7 @@ def create_user(requests):
     usr=mp.user()
     #查询是否存在该用户
     res=db_operation.select(sql=usr.select(conditions={'usrName':userName}))
-    if res:
+    if len(res)!=0:
         return zip_pack({'status':False,'reason':'用户已存在'})
     usr.usrName=userName
     usr.last_login_date=cur_time
@@ -69,7 +72,7 @@ def create_user(requests):
         return zip_pack({'status':False,'reason':'请联系管理员'})
     #创建文件夹
     file_admin.add_dirctionary(path=userName)  # 创建文件夹
-    return zip_pack({'status':True})
+    return zip_pack({'status':True},cookies={'token':user_token})
 #删除用户
 #usrName
 #return:
@@ -101,12 +104,111 @@ def delete_user(requests):
     if db_operation.exceute_sql(sql=m_token.delete(conditions={'usr_name': user_name}))==False:
         return zip_pack({'status':False,'reason':'请联系管理员'})
     return  zip_pack({'status':'True'})
+@require_http_methods(['GET'])
 def apply_token(requests):
-    pass
-
+    usr_name=requests.GET.get('usrName')
+    if usr_name==None:
+        return zip_pack({'status':False,'reason':'参数不匹配'})
+    token_obj=mp.token()
+    t_res=db_operation.select(sql=token_obj.select(conditions={'usr_name':usr_name}))
+    if not t_res:
+        return zip_pack({'status':False})
+    return zip_pack({'status':True,'token':t_res[1]},cookies={'token':t_res[1]})
+#method:GET
+#fileName:string
+#path:string
+#t_batchs:int
+#cur_batch:int
+#content
+#file_size文件总大小
+@require_http_methods(['POST'])
 def upload_single_file(requests):
-    pass
+    #检查用户信息
+    token=requests.POST.get('token') if requests.COOKIES['token']==None else requests.COOKIES['token']
+    content=requests.FILES.get('file',None)
 
+    if not content:
+        zip_pack({'status':False,'reason':'不存在文件'})
+    if not token:
+        return zip_pack({'status':False})
+    token_obj=mp.token()
+    usr_infor=db_operation.select(sql=token_obj.select(conditions={'token':token}))
+
+    if len(usr_infor)==0:
+        return zip_pack({'status':False,'reason':'用户不存在'})
+    usr_Name=usr_infor[0][2]
+    params=['fileName','path','t_batchs','cur_batch','file_size']
+
+    vals=[requests.POST.get(key) for key in params]
+    for val in vals:
+        if val==None:
+            return zip_pack({'status':False,'reason':'参数不匹配'})
+    val_dict=dict(zip(params,vals))
+    print('冲突检查')
+    #文件冲突检查
+    file_path = usr_Name + '/' + val_dict['path']
+    abs_file_path=file_admin.show_path(file_path)
+    file_obj = mp.file()
+    res=db_operation.select(sql=file_obj.select(conditions={'file_path':abs_file_path}))
+    if len(res)!=0 and res[0][7]==1:
+        return zip_pack({'status':False})
+
+    t_batchs=int(val_dict['t_batchs'])
+    cur_batch=int(val_dict['cur_batch'])
+    if t_batchs==1:#文件没有切割
+        for item in content:#执行数据拷贝
+            file_admin.write_sigle_chunk(file_path, item)
+        #处理数据库
+        file_obj.file_name=val_dict['fileName']
+        file_obj.file_path=abs_file_path
+        file_obj.last_update=str(time.time())
+        file_obj.belong=usr_Name
+        file_obj.file_size=val_dict['file_size']
+        file_obj.chunk=1
+        file_obj.complete=True
+        db_operation.exceute_sql(sql=file_obj.insert())
+    else:#文件有进行切割
+        if cur_batch==0:#文件创建
+            file_obj.file_name = val_dict['fileName']
+            file_obj.file_path = abs_file_path
+            file_obj.last_update = str(time.time())
+            file_obj.belong = usr_Name
+            file_obj.file_size = val_dict['file_size']
+            file_obj.chunk = cur_batch
+            file_obj.complete = False
+            file_obj.file_name=val_dict['fileName']
+            db_operation.exceute_sql(sql=file_obj.insert())
+            for item in content:
+                file_admin.write_sigle_chunk(file_path, item)
+        else:#文件
+            #检查当前批次是否正确
+            file_res=db_operation.select(sql=file_obj.select(conditions={'file_path':abs_file_path}))
+            print('file_path',file_path)
+            print('file_res',file_res)
+            if len(file_res)==0:
+                return zip_pack({'status':False,'reason':'文件不存在'})
+            else:
+                chunk=file_res[0][-2]
+                print('chunk',chunk)
+                print('cur_chunk',cur_batch)
+                if chunk+1!=cur_batch:
+                    return zip_pack({'status':False,'reason':'批次不正确'})
+            for item in content:
+                file_admin.write_sigle_chunk(file_path, item)
+            up_data={}
+            up_data['chunk']=cur_batch
+            if cur_batch+1==t_batchs:
+                db_operation.exceute_sql(sql=file_obj.update(conditions={'file_path': abs_file_path}, kwargs={'complete': 1}))
+            db_operation.exceute_sql(sql=file_obj.update(conditions={'file_path':abs_file_path},kwargs={'chunk':cur_batch}))
+    return zip_pack({'status':True})
+#method:GET
+#fileName:string
+#path:string
+#cur_batch:int
+#content
 def download_single_file(requets):
     pass
 
+#用于查询该目录的数据
+def Get_Layer(requests):
+    pass

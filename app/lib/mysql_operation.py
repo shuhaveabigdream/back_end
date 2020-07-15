@@ -63,11 +63,13 @@ class file(model):
         self.belong=''
         self.last_update=''
         self.file_path=''
+        self.chunk=0
+        self.complete=False
         self.db='file_list'
         super(file,self).__init__()
     def insert(self):
-        return 'insert into ' + self.db + '(file_name,file_size,belong,last_update,file_path) values (\'%s\',\'%s\',\'%s\',\'%s\',\'%s\')' % (
-            self.file_name, self.file_size, self.belong,self.last_update,self.file_path)
+        return 'insert into ' + self.db + '(file_name,file_size,belong,last_update,file_path,chunk,complete) values (\'%s\',\'%s\',\'%s\',\'%s\',\'%s\',%d,%d)' % (
+            self.file_name, self.file_size, self.belong,self.last_update,self.file_path,self.chunk,self.complete)
 class mysql_operation:
     def __init__(self,user='root',password='Shu@123456',db='diskdb',log_dir='./log'):
         self.conn=pymysql.connect(host='localhost',
@@ -98,7 +100,7 @@ class mysql_operation:
         sql_create_usr = "create table user_list(\
             usr_id int unsigned auto_increment,\
             usrName varchar(20) not null,\
-            path varchar(50) not null,\
+            path varchar(100) not null,\
             last_login_date varchar(60),\
             last_login_addr varchar(20),\
             primary key(usr_id))ENGINE=InnoDB DEFAULT CHARSET=utf8;"
@@ -115,6 +117,8 @@ class mysql_operation:
             belong varchar(40),\
             last_update varchar(40) NOT NULL,\
             file_path varchar(100) NOT NULL,\
+            chunk int unsigned NOT NULL,\
+            complete bool NOT NULL,\
             PRIMARY KEY(file_id))ENGINE=InnoDB DEFAULT CHARSET=utf8;"
         self.exceute_sql(sql=sql_create_usr)
         self.exceute_sql(sql=sql_create_file)

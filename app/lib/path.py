@@ -118,6 +118,12 @@ class Path:
                 ct=open(path+'/'+index,'rb').read()
                 f.write(ct)
         f.close()
+    def write_sigle_chunk(self,path,content):
+        path = self.filePath + (path if path != None else '')
+        with open(path,'ab+') as f:
+            f.write(content)
+        f.close()
+        return True
     def package_One_layer(self,path=None):
         pwd,subdirec,files=self.tree(path)
         ans=[self.getInfor(item) for item in files] 
