@@ -9,7 +9,7 @@ def logging(func):
         record='sql:%s \nstatus %s \ntime:%s\r\n'
         sql_sen=kwargs['sql']
         status=func(*args,**kwargs)
-        encode_status='success' if status!=False else 'fail'
+        encode_status='success' if status!=False else '**********fail*********'
         with open('./log','a+') as f:
             f.write(record%(sql_sen,encode_status,cur_time))
         f.close()

@@ -45,55 +45,63 @@ class Path:
         return
     def tree(self,path=None):
         path = self.filePath + (path if path != None else '')
-        for root,subdict,files in os.walk(path):
-           return root,subdict,files
-    def getInfor(self,path=None):
-        path = self.filePath + (path if path != None else '')
+        if os.path.isdir(path):
+            for root,subdict,files in os.walk(path):
+               return root,subdict,files
+        else:
+            return path,[],['']
+    def getInfor(self,path=None,relative=True):
+        if relative:
+            path = self.filePath+ (path if path != None else '')
         fileinfor=os.stat(path)
-        file_size=round(fileinfor.st_size/1024/1024,2)
+        file_size=fileinfor.st_size
         last_visit_data=fileinfor.st_atime
         last_change_date=fileinfor.st_mtime
-        file_name=''
-        extend_name=''
-        def Named():
-            nonlocal file_name
-            nonlocal extend_name
-            i = len(path) - 1
-            j = 0
-            while i>=0:
-                if(path[i]=='.'):
-                    j=i
-                    extend_name=path[i+1:]
-                elif(path[i]=='/'):
-                    file_name=path[i+1:j]
-                    break
-                i-=1
-        Named()
+        filepath, tmpfile = os.path.split(path)
+        shortname, extension = os.path.splitext(tmpfile)
         return {
-                'abs_path':path,
-                'file_name':file_name,
-                'extend_name':extend_name,
+                'file_name':shortname,
+                'extend_name':extension,
                 'file_size':file_size,
                 'last_visit':last_visit_data,
                 'last_change':last_change_date
         }
     def remove_sigle_file(self,path):
-        path = self.filePath + (path if path != None else '')
         if os.path.exists(path):
             os.remove(path)
             return True
         else:
             return False
-    def remove_directory(self,path):
+    def remove_directory(self,path,relative=True):
+        if relative:
+            path = self.filePath + (path if path != None else '')
+        shutil.rmtree(path+'/')
+        return True
+    def get_all_file(self,path):
         path = self.filePath + (path if path != None else '')
-        shutil.rmtree(path)
+        buf=[]
+        def walk_File(file):
+            for root, dirs, files in os.walk(file):
+                for f in files:
+                    buf.append(root+'/'+f)
+                for d in dirs:
+                    walk_File(root+'/'+d)
+        walk_File(path)
+        return buf
+    def remove(self,path):
+        path = self.filePath + (path if path != None else '')
+        if not os.path.exists(path):
+            return False
+        if os.path.isdir(path):
+            self.remove_directory(path,False)
+        else:
+            self.read_sigle_file(path)
         return True
     #大文件的切割与合并
     def div_chunks(self,content,package,batch_size=32):
         self.add_dirctionary(package)
         fileName='Batch_'
         chunk_size=len(content)//batch_size
-        chunk_array=[]
         for i in range(0,batch_size-1):
             sub_content=content[i*chunk_size:(i+1)*chunk_size]
             self.write_sigle_file(package+'/'+fileName+str(i),sub_content)
@@ -125,9 +133,16 @@ class Path:
         f.close()
         return True
     def package_One_layer(self,path=None):
-        pwd,subdirec,files=self.tree(path)
-        ans=[self.getInfor(item) for item in files] 
-        return ans
+        if os.path.exists(self.filePath + (path if path != None else '')):
+            pwd,subdirec,files=self.tree(path)
+            ans=[self.getInfor(path+'/'+item) if item!='' else self.getInfor(path) for item in files]
+            callback={
+                        'files_infor':ans,
+                        'subdirecs':subdirec
+                      }
+            return callback
+        else:
+            return False
     def show_path(self,path):
         return self.filePath + (path if path != None else '')+'/'
 
